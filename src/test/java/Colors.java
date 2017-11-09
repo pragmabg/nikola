@@ -17,6 +17,7 @@ public class Colors {
 			builder.keyDown(Keys.CONTROL).click(Red).click(Silver).keyUp(Keys.CONTROL).build().perform();
 			assertTrue(Red.isSelected());
 			assertTrue(Silver.isSelected());
+			assertTrue(true);
 	}
 
 }
